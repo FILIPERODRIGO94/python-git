@@ -7,3 +7,9 @@ def rota_inicial():
     return{
         "message": "Olá mundo"
     }
+
+@app.get("/test")
+def rota_test():
+    return{
+        "message": "Tá funcionando"
+    }

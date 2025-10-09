@@ -15,10 +15,8 @@ pip install -r requirements.txt
 Para rodar a aplicação, utilize o seguinte comando:
 
 ```bash
-uvicorn main:app
+uvicorn main:app --reload
 ```
 
 A aplicação vai rodar na porta 8000. Por padrão, o link será: http://127.0.0.1:8000
-
-
 
